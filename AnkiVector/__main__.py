@@ -72,32 +72,32 @@ Hit /help to find my list of available commands
 buttons = [
     [
         InlineKeyboardButton(
-            text="𝗝𝗼𝗶𝗻 𝗺𝘆 𝗺𝗮𝗶𝗻 𝗴𝗿𝗼𝘂𝗽 ❤️", url="https://t.me/international_english_chattings"
+            text="Support Group", url="https://t.me/CFC_BOT_support"
         ),
         InlineKeyboardButton(
-            text="𝐉𝐨𝐢𝐧 𝐒𝐫𝐢 𝐋𝐚𝐧𝐤𝐚𝐧 𝐠𝐫𝐨𝐮𝐩 🇱🇰", url="https://t.me/srilankan_friends_club"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-            text="🅞🅦🅝🅔🅡 🅞🅕 🅜🅔", url="https://t.me/iamkevinbest"
-        ),
-        InlineKeyboardButton(
-            text="❔ Help", url="http://t.me/I_am_alexa_not_bot?start=help"
+            text="Update Channel", url="https://t.me/Phoenix_Empire"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add 🇦 🇱 🇪 🇽 🇦 to your group ➕",
-            url="t.me/TheAnkiVectorbot?startgroup=true",
+            text="Owner", url="https://t.me/heyaaman"
+        ),
+        InlineKeyboardButton(
+            text="❔ Help", url="http://t.me/PhoenixWarmedbot?start=help"
+        ),
+    ],
+    [
+        InlineKeyboardButton(
+            text="➕ Add Phoenix to your group ➕",
+            url="t.me/PhoenixWarmedbot?startgroup=true",
         ),
     ],
 ]
 
-ANKIVECTOR_IMG = "https://telegra.ph/file/43cb482f119525650bdd9.jpg"
+ANKIVECTOR_IMG = "https://telegra.ph/file/48e9efb24d51c88cead04.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/e10a45d0433a1ab6fed7b.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/48e9efb24d51c88cead04.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -373,8 +373,8 @@ def AnkiVector_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Anki Vector Updates.* "
-            f"\n\n Join [AnkiVectorUpdates](https://t.me/ankivectorUpdates) To Keep Yourself Updated About {dispatcher.bot.first_name}"
+            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Phoenix Updates.* "
+            f"\n\n Join [Phoenix Updates](https://t.me/phoenix_empire) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
             f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
